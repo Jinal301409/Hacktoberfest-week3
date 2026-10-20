@@ -1,0 +1,6 @@
+{
+  "name": "LazyFlow AI",
+  "description": "You relax. Your AI handles the boring stuff. Privacy-conscious open-source AI productivity assistant powered by Gemma open-weights and local Ollama.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

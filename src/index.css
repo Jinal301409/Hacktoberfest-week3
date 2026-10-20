@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    color: #e2e8f0;
+    background-color: #080d0a;
+  }
+  
+  code, pre, .font-mono {
+    font-family: 'JetBrains Mono', monospace;
+  }
+}
+
+/* Custom scrollbars for dark UI */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0d1410;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e2e25;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #2e4538;
+}
+
+/* Glass effect utility */
+.glass-panel {
+  background: rgba(14, 22, 17, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(45, 75, 55, 0.25);
+}
+
+.glass-panel-subtle {
+  background: rgba(11, 18, 14, 0.6);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  border: 1px solid rgba(45, 75, 55, 0.15);
+}
+
+.glow-lime {
+  box-shadow: 0 0 25px -5px rgba(163, 230, 53, 0.15);
+}
